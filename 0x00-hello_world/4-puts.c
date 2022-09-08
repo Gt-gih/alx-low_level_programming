@@ -1,11 +1,11 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
-*main 
+* main 
 * 
-*description
-*this program
-*return:0
+* description
+* this program
+* return:0
 */
 int main(void)
 {
