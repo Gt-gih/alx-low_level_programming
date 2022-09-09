@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
-* more headers goes there
+* main - print the no is pos, neg or zero 
 *
-* betty style doc for function main goes there
-* return:0
+* Description using the main function
+* Return:0
 */
 
 int main(void)
