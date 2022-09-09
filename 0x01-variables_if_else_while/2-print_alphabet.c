@@ -1,5 +1,3 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 
 /**
@@ -7,14 +5,15 @@
  *
  * Description using the main function
  * Return:0
-*/
+ */
+
 int main(void)
 {
 char c;
 for (c = 'a' ; c <= 'z' ; c++)
 {
-	putchar(c);
+	putchar (c);
 }
-putchar("\n");
+putcha r('\n');
 return (0);
 }
