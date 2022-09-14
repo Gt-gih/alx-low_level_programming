@@ -8,6 +8,7 @@
  *
  * return: 0 upon success
  */
+
 int main(void)
 {
 	printf("_putchar\n");
