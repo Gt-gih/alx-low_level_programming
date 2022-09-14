@@ -4,8 +4,8 @@
  * main-print putchar
  * return: always 0
  */
-
-int main (void)
+/*return 0*/
+int main(void)
 {
 _putchar('_');
 _putchar('p');
