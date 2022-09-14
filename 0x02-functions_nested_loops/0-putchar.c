@@ -1,6 +1,3 @@
-#include <stdio.h>
-#include <time.c>
-#include <stdlib.h>
 #include "main.h"
 
 /**
