@@ -2,7 +2,7 @@
 
 /**
  * main -entry point
- * 
+ *
  * escription -prints using _putchar function
  *
  * return: 0 upon succes
