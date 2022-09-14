@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _islower - Entry point
+ * _islower- Entry point
  * @c: init parameter
- * return: 1 or 0 when success
+ * Return:0
  *
  */
 int _islower(int c)
