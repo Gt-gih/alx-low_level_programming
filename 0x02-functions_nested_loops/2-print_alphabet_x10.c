@@ -8,11 +8,11 @@
 void print_alphabet_x10(void)
 {
 
-int co;	
+int co;
 char c;
 co = 0;
 
-while(co < 10)
+while (co < 10)
 {
 
 for (c = 'a'; c <= 'z'; c++)
