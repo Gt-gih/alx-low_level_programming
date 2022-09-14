@@ -10,6 +10,6 @@
 int main(void)
 {
 printf("_putchar\n");
-
+/*The program should return 0*/
 return (0);
 }
