@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
-* main -entry point
-*
-* description -prints using _putchar function
-*
-* return: 0 upon success
-*/
+ * main -entry point
+ * 
+ * escription -prints using _putchar function
+ *
+ * return: 0 upon succes
+ */
 int main(void)
 {
 _putchar('_');
