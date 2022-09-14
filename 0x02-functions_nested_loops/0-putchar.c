@@ -6,7 +6,7 @@
  *
  * description -prints using _putchar function
  *
- * Return 0: upon success
+ * return: 0 upon success
  */
 int main(void)
 {
