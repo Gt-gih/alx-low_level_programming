@@ -8,7 +8,7 @@
  *
  * Return 0: upon success
  */
-/*it will return 0 upone suceess*/
+
 int main(void)
 {
 	printf("_putchar\n");
