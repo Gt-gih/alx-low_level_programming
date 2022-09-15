@@ -9,13 +9,14 @@ void jack_bauer(void)
 {
 	int h = 0;
 	int m = 0;
-	int h_rm = 0;
-	int m_rm = 0;
+	int h_rm;
+	int m_rm;
 
 	while (h <= 23)
 	{
 	while (m <= 59)
 	{
+	m_rm = m % 10;
 	h_rm = h % 10;
 	_putchar(h / 10 + '0');
 	_putchar(h_rm + '0');
