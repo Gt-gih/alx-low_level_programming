@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * add- Entry point
- * @num1- parameter 1 store 1st argument
- * @num2- parameter 2 store second argument
+ * @num1: parameter 1 store 1st argument
+ * @num2: parameter 2 store second argument
  * Descriptiomn init parameter
  * Return:0
  */
