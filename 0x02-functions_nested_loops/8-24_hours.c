@@ -20,9 +20,9 @@ void jack_bauer(void)
 	_putchar(h / 10 + '0');
 	_putchar(h_rm + '0');
 	_putchar(':');
-        _putchar(m / 10 + '0');
+	_putchar(m / 10 + '0');
 	_putchar(m_rm + '0');
-        m++;
+	m++;
 	_putchar('\n');
 	}
 	h++;
