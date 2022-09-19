@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * print_rev - Prints a string in reverse.
- * @s: string to be reserved.
+ * print_rev - Prints a string in reverse order.
+ * @s: param for the string to be reserved.
+ * return; nothing to return
  */
 void print_rev(char *s)
 {
