@@ -1,32 +1,27 @@
 #include "main.h"
+
 /**
- *leet - a function that encodes a string into.
- *@s: string to be crypted to.
- *Return: pointer to string .
- *Update V 1.0 : In the new code , two arrays are changed with  2 pointers, that
- *are pointed to the BASS adresses of the arrays.
- *in addition to that ,a pointer p is assigned to s.
+ * leet - a function that encodes a string into.
+ * @str: string to be crypted to.
+ * Return: pointer to string .
+ *
  */
 
-char *leet(char *s)
+char *leet(char *str)
 {
-	char *m = "aeotl";
-	char *M = "AEOTL";
-	int x[] = {'4', '3', '0', '7', '1'};
-	int i;
-	char *p = s;
+	int inx1 = 0, inx2;
+	char x[8] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T'};
 
-	while (*s != '\0')
+	while (str[inx1])
 	{
+		for (inx2 = 0; inx2 <= 7; inx2++)
+		{
+			if (str[inx1] == x[inx2] || x[inx1] - 32 == x[inx2])
+				str[inx1] = inx2 + '0';
+		}
 
-	for (i = 0; i < 5; i++)
-	{
-		if (*s == *(m + i) || *s == *(M + i))
-
-			*s = x[i];
+		inx1++;
 	}
-		s++;
 
-	}
-		return (p);
+	return (str);
 }
