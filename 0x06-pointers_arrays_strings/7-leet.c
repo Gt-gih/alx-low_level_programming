@@ -1,26 +1,24 @@
 #include "main.h"
 
 /**
-* leet - a function that encodes a string into
-* @str: string to be crypted to
-* Return: pointer to string
-*
-*/
-
-char *leet(char *str)
+ * leet - encodes a string into 1337
+ * @s: string to encode
+ *
+ * Return: address of s
+ */
+char *leet(char *s)
 {
-	int inx1 = 0, inx2;
-	char x[8] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T'};
+	int i, j;
+	char a[] = "aAeEoOtTlL";
+	char b[] = "4433007711";
 
-	while (str[inx1] != '\0')
+	for (i = 0; *(s + i); i++)
 	{
-		for (inx2 = 0; inx2 <= 7; inx2++)
+		for (j = 0; j <= 9; j++)
 		{
-			if (str[inx1] == x[inx2] || x[inx1] - 32 == x[inx2])
-				str[inx1] = inx2 + '0';
+			if (a[j] == *(s + i))
+				*(s + i) = b[j];
 		}
-		inx1++;
 	}
-
-	return (str);
+	return (s);
 }
