@@ -1,10 +1,11 @@
 #include "main.h"
+
 /**
- * leet - a function that encodes a string into.
- * @str: string to be crypted to.
- * Return: pointer to string .
- *
- */
+* leet - a function that encodes a string into
+* @str: string to be crypted to
+* Return: pointer to string
+*
+*/
 
 char *leet(char *str)
 {
@@ -18,7 +19,6 @@ char *leet(char *str)
 			if (str[inx1] == x[inx2] || x[inx1] - 32 == x[inx2])
 				str[inx1] = inx2 + '0';
 		}
-
 		inx1++;
 	}
 
