@@ -6,7 +6,7 @@
  * @s: param that holds a char to print
  * @accept: param for char
  *
- * Return: number of bytes in the initial segment of s.
+ * Return: Always 0 om success.
  */
 unsigned int _strspn(char *s, char *accept)
 {
