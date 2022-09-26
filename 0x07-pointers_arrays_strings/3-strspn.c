@@ -2,33 +2,32 @@
 #include <stdio.h>
 
 /**
- * _strspn - function to get the length of a prefix substring.
- * @s: param that holds a char to print
- * @accept: param for char
- *
- * Return: always 0 on success
+ * _strspn - a function that gets the length of a prefix substring
+ * @s: input
+ * @accept: input
+ * Return: Always 0 (Success)
  */
-
 unsigned int _strspn(char *s, char *accept)
 {
-	int count;
+	unsigned int i, n, value, check;
 
-	while (*s != '\0')
+	value = 0;
+
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		while (*accept != '\0')
+		check = 0;
+
+		for (n = 0; accept[n] != '\0'; n++)
 		{
-			if (*s == *accept)
-				break;
-			count++;
-			accept++;
-
-			s++;
+			if (accept[n] == s[i])
+			{
+				value++;
+				check = 1;
+			}
 		}
-		
-		if (*accept == '\0')
-			break;
-	
+		if (check == 0)
+			return (value);
 	}
-	return (count + 1);
 
+	return (value);
 }
