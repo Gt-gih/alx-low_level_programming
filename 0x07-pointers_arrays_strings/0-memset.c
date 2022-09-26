@@ -2,8 +2,8 @@
 
 /**
  * _memset - handles memory with a constant value.
- * @d: var to allocated memory - array of chars.
- * @s: var of char bytes.
+ * @s: var to allocated memory - array of chars.
+ * @b: var of char bytes.
  * @n: number of spaces to be filld .
  *
  * Return: pointer to memory area s
