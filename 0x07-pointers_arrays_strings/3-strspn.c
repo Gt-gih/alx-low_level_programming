@@ -6,7 +6,7 @@
  * @s: param that holds a char to print
  * @accept: param for char
  *
- * Return: i
+ * Return: count
  */
 
 unsigned int _strspn(char *s, char *accept)
@@ -23,10 +23,13 @@ unsigned int _strspn(char *s, char *accept)
 			accept++;
 
 			s++;
+		}
 
+		if (*accept == '\0')
+			break;
+	
 	}
-	if (*accept == '\0')
-		break;
-	}
+
 	return (count + 1);
+
 }
