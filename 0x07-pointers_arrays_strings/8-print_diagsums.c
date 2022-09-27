@@ -21,7 +21,6 @@ void print_diagsums(int *a, int size)
 	}
 
 	for (j = 0; j < size; j++)
-
 	{
 		d = d + *(a + (size * j) + (size - j - 1));
 	}
