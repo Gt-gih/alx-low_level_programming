@@ -10,17 +10,9 @@
  * Return: 0 on success
  */
 
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
-	int c = 0;
-	
-	while (c < argc)
-	{
-		if (c == 0)
-		{
-			printf("%s\n", argv[c]);
-			break;
-		}
-	}
+	if (argc > 0)
+		printf("%s\n", argv[0]);
 	return (0);
 }
