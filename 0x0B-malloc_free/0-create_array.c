@@ -1,10 +1,10 @@
-#include "main.h"
+#include "holberton.h"
 #include <stdlib.h>
 
 /**
- * create_array - function creates a dynamic memory allocation
+ * create_array - function to creates a dynamic memory allocati
  * @size : size of an array.
- * @c: character var.
+ * @c: character.
  * Return: pointer to the Array or NULL if it fails.
  */
 
