@@ -1,4 +1,4 @@
-#include "ain.h"
+#include "main.h"
 
 /**
  * rev_bin - prints binary representation of number with & and Shift Right
